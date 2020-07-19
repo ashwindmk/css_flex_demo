@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.item {
+    padding: 2rem;
+    margin: 1rem;
+    background: rgb(220, 220, 220);
+    color: black;
+    border: 1px solid black;
+
+    flex: 1;
+}
+
+#item-2 {
+    flex: 2;
+}
